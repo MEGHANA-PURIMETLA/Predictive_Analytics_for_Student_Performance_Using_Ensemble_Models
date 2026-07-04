@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# ML Models
+ml-service/api/models/*.pkl
+
+# Dataset (optional if very large)
+# ml-service/api/datasets/student_performance.csv
+
+# Environment
+.env
+
+# Build
+dist/
